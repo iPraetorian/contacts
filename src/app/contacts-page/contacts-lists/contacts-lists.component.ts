@@ -27,6 +27,30 @@ export class ContactsListsComponent implements OnInit {
       {
         "firstName": "patient4",
         "lastName": "zero"
+      },
+      {
+        "firstName": "patient5",
+        "lastName": "zero"
+      },
+      {
+        "firstName": "patient6",
+        "lastName": "zero"
+      },
+      {
+        "firstName": "patient7",
+        "lastName": "zero"
+      },
+      {
+        "firstName": "patient8",
+        "lastName": "zero"
+      },
+      {
+        "firstName": "patient9",
+        "lastName": "zero"
+      },
+      {
+        "firstName": "patient10",
+        "lastName": "zero"
       }
     ]
   }

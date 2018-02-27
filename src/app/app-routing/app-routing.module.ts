@@ -5,13 +5,23 @@ import { MainComponent } from '../main/main.component';
 import { MainModule } from '../main/main.module';
 import { ContactsListsComponent } from '../contacts-page/contacts-lists/contacts-lists.component';
 import { ContactsPageModule } from '../contacts-page/contacts-page.module';
+import { ContactDetailComponent } from '../contacts-page/contact-detail/contact-detail.component';
 
 const routes: Routes = [
   {
     path: '',
     component: MainComponent
-  }, {path: 'contacts',
-  component: ContactsListsComponent}
+  }, {
+    path: 'contacts',
+    component: ContactsListsComponent
+
+  },
+  {
+  
+    path: 'contactdetail',
+    component: ContactDetailComponent
+    
+  }
 ]
 @NgModule({
   imports: [

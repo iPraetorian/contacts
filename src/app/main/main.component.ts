@@ -10,13 +10,13 @@ import { RouterModule, Router } from '@angular/router';
 export class MainComponent implements OnInit {
   router: Router;
 
-  constructor(router:Router) {
+  constructor(router: Router) {
     this.router = router
   }
 
   ngOnInit() {
   }
-  viewcontacts(){
+  viewcontacts() {
     this.router.navigateByUrl("contacts");
 
   }
