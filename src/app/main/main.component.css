@@ -1,0 +1,13 @@
+.DENUS {
+    width: 600px;
+    height: 300px;
+    padding: 12px;
+
+}
+
+h1 {
+    font-family: arial;
+    color: black;
+    font-size: 24px;
+}
+

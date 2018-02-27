@@ -1,0 +1,13 @@
+<p>
+  <div>
+    <h1>
+      The List
+    </h1>
+      <canvas id="contactcardbanner"></canvas>
+  </div>
+ 
+
+
+<div *ngFor="let contact of contacts">
+  <app-contact-cards [contact]="contact"></app-contact-cards>
+</div>

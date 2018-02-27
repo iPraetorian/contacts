@@ -8,21 +8,10 @@ import { RouterModule, Router } from '@angular/router';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
-  contacts: Array<Object>;
-  test: number;
   router: Router;
 
   constructor(router:Router) {
     this.router = router
-   
-   /*  this.contacts = [{
-      "firstName": "Drew",
-      "lastName": "Morris"
-    },
-    {
-      "firstName": "Hayden",
-      "lastName": "Berge"
-    }] */
   }
 
   ngOnInit() {
