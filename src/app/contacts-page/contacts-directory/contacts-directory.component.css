@@ -1,4 +1,9 @@
 h1 {
-    font: 24px;
-    font-family: Arial;
+        font-family: arial;
+        color: #81A9FF;
+        font-size: 40px;
+        border: solid;
+        background: #3E81F1;
+        text-align: center;
+        text-shadow: 2px 1px #32457A;
 }
