@@ -20,6 +20,7 @@ export class ContactsDirectoryComponent implements OnInit {
       {
         "firstName": "patient1",
         "lastName": "zero",
+        "img_src": "assets/images/ErlichB.jpeg"
       },
       {
         "firstName": "patient2",

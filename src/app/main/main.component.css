@@ -1,4 +1,4 @@
-.DENUS {
+.SV {
     
     width: 100%;
     text-align: center;
@@ -8,10 +8,10 @@
 
 h1 {
     font-family: arial;
-    color: #81A9FF;
+    color: #C7AA98;
     font-size: 40px;
     border: solid;
-    background: #3E81F1;
+    background: #9B9FA1;
     text-align: center;
     text-shadow: 2px 1px #32457A;
 }
@@ -25,7 +25,7 @@ h1 {
 
 #vc {
     align-self: inherit;
-    background-color:#6B2297;
+    background-color:#4B2829;
     padding: .5em;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -44,7 +44,7 @@ h1 {
 
 #vc:hover {
     border: none;
-    background: #F40F1D;
+    background: #5B5A56;
     box-shadow: 0px 0px 1px #777;
     transform: translateY(-8px);
 }
