@@ -8,12 +8,12 @@
 
 h1 {
     font-family: arial;
-    color: #C7AA98;
+    color: #FCFBFC;
     font-size: 40px;
     border: solid;
-    background: #9B9FA1;
+    background: #8B8782;
     text-align: center;
-    text-shadow: 2px 1px #32457A;
+    text-shadow: 3px 2px #696964;
 }
 
 #vcBtn {
@@ -44,7 +44,7 @@ h1 {
 
 #vc:hover {
     border: none;
-    background: #5B5A56;
+    background: #9E9D9B;
     box-shadow: 0px 0px 1px #777;
     transform: translateY(-8px);
 }
