@@ -1,13 +1,51 @@
 .DENUS {
-    width: 600px;
-    height: 300px;
-    padding: 12px;
+    
+    width: 100%;
+    text-align: center;
+    padding-top: 2em
 
 }
 
 h1 {
     font-family: arial;
-    color: black;
-    font-size: 24px;
+    color: #81A9FF;
+    font-size: 40px;
+    border: solid;
+    background: #3E81F1;
+    text-align: center;
+    text-shadow: 2px 1px #32457A;
+}
+
+#vcBtn {
+    width: 100%;
+    text-align: center;
+    padding-top: 3em;
+    
+}
+
+#vc {
+    align-self: inherit;
+    background-color:#6B2297;
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'arial';
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease 0s;
+    
+    
+    
+    
+}
+
+#vc:hover {
+    border: none;
+    background: #F40F1D;
+    box-shadow: 0px 0px 1px #777;
+    transform: translateY(-8px);
 }
 

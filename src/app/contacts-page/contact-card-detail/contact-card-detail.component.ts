@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ContactServiceService } from '../contact-service.service';
+import { RouterModule, Router } from '@angular/router';
 
 @Component({
   selector: 'app-contact-card-detail',
@@ -7,10 +8,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-card-detail.component.css']
 })
 export class ContactDetailComponent implements OnInit {
+  router: Router;
+  contactService: ContactServiceService;
 
-  constructor() { }
+  constructor(router: Router, contactService: ContactServiceService) {
+    this.router = router
+    this.contactService = contactService;
+  }
 
   ngOnInit() {
   }
+  returntohome() {
+    this.router.navigateByUrl("http://localhost:4200/");
+  }
+
 
 }
