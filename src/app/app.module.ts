@@ -7,7 +7,7 @@ import { MainModule } from './main/main.module';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { RouterModule } from '@angular/router';
 import { ContactCardsComponent } from './contacts-page/contact-cards/contact-cards.component';
-import { ContactDetailComponent } from './contacts-page/contact-detail/contact-detail.component';
+import { ContactDetailComponent } from './contacts-page/contact-card-detail/contact-card-detail.component';
 
 
 @NgModule({
@@ -18,7 +18,8 @@ import { ContactDetailComponent } from './contacts-page/contact-detail/contact-d
     BrowserModule,
     MainModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactCardsComponent } from '../contacts-page/contact-cards/contact-cards.component';
-import { ContactDetailComponent } from './contact-detail/contact-detail.component';
+import { ContactDetailComponent } from './contact-card-detail/contact-card-detail.component';
 import { ContactsDirectoryComponent } from './contacts-directory/contacts-directory.component';
 
 @NgModule({
@@ -10,8 +10,8 @@ import { ContactsDirectoryComponent } from './contacts-directory/contacts-direct
   ],
   declarations: [
     ContactCardsComponent,
-    ContactDetailComponent,
-    ContactsDirectoryComponent
+    ContactsDirectoryComponent,
+    ContactDetailComponent
   ],
   exports: [ContactCardsComponent,
   ContactDetailComponent]

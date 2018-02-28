@@ -5,7 +5,7 @@ import { MainComponent } from '../main/main.component';
 import { MainModule } from '../main/main.module';
 import { ContactsDirectoryComponent } from '../contacts-page/contacts-directory/contacts-directory.component';
 import { ContactsPageModule } from '../contacts-page/contacts-page.module';
-import { ContactDetailComponent } from '../contacts-page/contact-detail/contact-detail.component';
+import { ContactDetailComponent } from '../contacts-page/contact-card-detail/contact-card-detail.component';
 
 const routes: Routes = [
   {
