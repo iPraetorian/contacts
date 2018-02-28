@@ -18,6 +18,5 @@ export class MainComponent implements OnInit {
   }
   viewcontacts() {
     this.router.navigateByUrl("contacts");
-
   }
 }
