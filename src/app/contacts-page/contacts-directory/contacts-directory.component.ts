@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-contacts-lists',
-  templateUrl: './contacts-lists.component.html',
-  styleUrls: ['./contacts-lists.component.css']
+  selector: 'app-contacts-directory',
+  templateUrl: './contacts-directory.component.html',
+  styleUrls: ['./contacts-directory.component.css']
 })
-export class ContactsListsComponent implements OnInit {
+export class ContactsDirectoryComponent implements OnInit {
   contacts: Array<object>;
 
   constructor() { }

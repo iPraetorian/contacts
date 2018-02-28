@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { MainComponent } from '../main/main.component';
 import { MainModule } from '../main/main.module';
-import { ContactsListsComponent } from '../contacts-page/contacts-lists/contacts-lists.component';
+import { ContactsDirectoryComponent } from '../contacts-page/contacts-directory/contacts-directory.component';
 import { ContactsPageModule } from '../contacts-page/contacts-page.module';
 import { ContactDetailComponent } from '../contacts-page/contact-detail/contact-detail.component';
 
@@ -13,7 +13,7 @@ const routes: Routes = [
     component: MainComponent
   }, {
     path: 'contacts',
-    component: ContactsListsComponent
+    component: ContactsDirectoryComponent
 
   },
   {

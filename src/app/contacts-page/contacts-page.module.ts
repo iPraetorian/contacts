@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactCardsComponent } from '../contacts-page/contact-cards/contact-cards.component';
 import { ContactDetailComponent } from './contact-detail/contact-detail.component';
-import { ContactsListsComponent } from './contacts-lists/contacts-lists.component';
+import { ContactsDirectoryComponent } from './contacts-directory/contacts-directory.component';
 
 @NgModule({
   imports: [
@@ -11,7 +11,7 @@ import { ContactsListsComponent } from './contacts-lists/contacts-lists.componen
   declarations: [
     ContactCardsComponent,
     ContactDetailComponent,
-    ContactsListsComponent
+    ContactsDirectoryComponent
   ],
   exports: [ContactCardsComponent,
   ContactDetailComponent]
