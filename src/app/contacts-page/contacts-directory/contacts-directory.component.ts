@@ -18,8 +18,10 @@ export class ContactsDirectoryComponent implements OnInit {
   ngOnInit() {
     this.contacts = [
       {
-        "firstName": "patient1",
-        "lastName": "zero",
+        "firstName": "Erlich",
+        "lastName": "Bachman",
+        "title": "Investor",
+        "telephoneNumber": '555-555-5555',
         "img_src": "assets/images/ErlichB.jpeg"
       },
       {

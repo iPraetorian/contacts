@@ -1,11 +1,11 @@
 h1 {
     font-family: arial;
-    color: #81A9FF;
+    color: #FCFBFC;
     font-size: 40px;
     border: solid;
-    background: #3E81F1;
+    background: #8B8782;
     text-align: center;
-    text-shadow: 2px 1px #32457A;
+    text-shadow: 3px 2px #696964;
 }
 
 #returnhome {
@@ -17,7 +17,7 @@ h1 {
 
 #homebtn {
     align-self: inherit;
-    background-color:#6B2297;
+    background-color:#4B2829;
     padding: .5em;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -33,7 +33,7 @@ h1 {
 
 #homebtn:hover {
     border: none;
-    background: #F40F1D;
+    background: #9E9D9B;
     box-shadow: 0px 0px 1px #777;
     transform: translateY(-8px);
 }
@@ -47,7 +47,7 @@ h1 {
 
 #directbtn {
     align-self: inherit;
-    background-color:#6B2297;
+    background-color:#4B2829;
     padding: .5em;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -66,7 +66,7 @@ h1 {
 
 #directbtn:hover {
     border: none;
-    background: #F40F1D;
+    background: #9E9D9B;
     box-shadow: 0px 0px 1px #777;
     transform: translateY(-8px);
 }
