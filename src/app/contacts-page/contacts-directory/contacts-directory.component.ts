@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ContactServiceService } from '../contact-service.service';
 
 @Component({
   selector: 'app-contacts-directory',
@@ -7,14 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactsDirectoryComponent implements OnInit {
   contacts: Array<object>;
+  contactService: Object;
 
-  constructor() { }
+  constructor(contactService:ContactServiceService) {
+    this.contactService = contactService;
+  }
+   
 
   ngOnInit() {
     this.contacts = [
       {
         "firstName": "patient1",
-        "lastName": "zero"
+        "lastName": "zero",
       },
       {
         "firstName": "patient2",
