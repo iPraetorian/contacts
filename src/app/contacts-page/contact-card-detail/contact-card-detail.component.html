@@ -1,13 +1,23 @@
-<html>
+
+
+
+
 <h1>
-  UnderConstruction
+  Contact Details
 </h1>
 <div id="returnhome">
   <button id="homebtn" (click)="returntohome()">Home</button>
 </div>
 
 <div id="returndirectory">
-  <button id="directbtn" (click)="returntodirectory">Directory</button>
+  <button id="directbtn" (click)="returntodirectory()">Directory</button>
 </div>
 
-</html>
+<div *ngIf = "currentContact">
+<p>{{currentContact.firstName}}</p>
+<p>{{currentContact.lastName}}</p>
+<p>{{currentContact.title}}</p>
+<p>{{currentContact.telephoneNumber}}</p>
+<img [src] ="currentContact.img_src">
+
+</div>

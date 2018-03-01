@@ -11,9 +11,12 @@ export class AppPage {
   }
 
   getViewContactsButton() {
-    return element(by.cssContainingText('button', 'View Contacts'));
+    return element(by.css('input[type="submit"]')).isPresent();
   }
 
+  getContactDirectoryText() {
+    return element(by.css('app-root-h1'));
+  }
  
 
   }

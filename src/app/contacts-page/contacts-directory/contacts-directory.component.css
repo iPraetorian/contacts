@@ -1,9 +1,38 @@
 h1 {
         font-family: arial;
-        color: #81A9FF;
+        color: #FCFBFC;
         font-size: 40px;
         border: solid;
-        background: #3E81F1;
+        background: #8B8782;
         text-align: center;
-        text-shadow: 2px 1px #32457A;
+        text-shadow: 3px 2px #696964;
+    }
+
+#cdDiv {
+    width: 100%;
+    text-align: center;
+    padding-top: 3em;
+}
+
+#cdBtn {
+    align-self: inherit;
+    background-color:#4B2829;
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'arial';
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease 0s; 
+
+}
+
+#cdBtn:hover {
+    border: none;
+    background: #9E9D9B;
+    box-shadow: 0px 0px 1px #777;
+    transform: translateY(-8px);
 }

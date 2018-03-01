@@ -10,6 +10,7 @@ import { RouterModule, Router } from '@angular/router';
 export class ContactDetailComponent implements OnInit {
   router: Router;
   contactService: ContactServiceService;
+  currentContact: Object;
 
   constructor(router: Router, contactService: ContactServiceService) {
     this.router = router
@@ -17,9 +18,14 @@ export class ContactDetailComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.currentContact = this.contactService.currentContact;
+
   }
   returntohome() {
-    this.router.navigateByUrl("http://localhost:4200/");
+    this.router.navigateByUrl("");
+  }
+  returntodirectory() {
+    this.router.navigateByUrl('/contacts');
   }
 
 

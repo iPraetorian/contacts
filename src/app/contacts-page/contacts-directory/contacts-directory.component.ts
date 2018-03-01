@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ContactServiceService } from '../contact-service.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contacts-directory',
@@ -9,17 +10,22 @@ import { ContactServiceService } from '../contact-service.service';
 export class ContactsDirectoryComponent implements OnInit {
   contacts: Array<object>;
   contactService: Object;
+  router: Router;
 
-  constructor(contactService:ContactServiceService) {
+  constructor(contactService:ContactServiceService, router:Router) {
     this.contactService = contactService;
+    this.router = router;
   }
    
 
   ngOnInit() {
     this.contacts = [
       {
-        "firstName": "patient1",
-        "lastName": "zero",
+        "firstName": "Erlich",
+        "lastName": "Bachman",
+        "title": "Investor",
+        "telephoneNumber": '555-555-5555',
+        "img_src": "assets/images/ErlichB.jpeg"
       },
       {
         "firstName": "patient2",
@@ -58,6 +64,10 @@ export class ContactsDirectoryComponent implements OnInit {
         "lastName": "zero"
       }
     ]
+  }
+
+  backtohome() {
+    this.router.navigateByUrl("");
   }
 
 }
