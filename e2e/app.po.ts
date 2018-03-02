@@ -1,4 +1,5 @@
 import { browser, by, element } from 'protractor';
+import { Element } from '@angular/compiler';
 
 export class AppPage {
   navigateTo() {
@@ -11,13 +12,15 @@ export class AppPage {
   }
 
   getViewContactsButton() {
-    return element(by.css('input[type="submit"]')).isPresent();
+    return element(by.buttonText('View Contacts')).getText();
   }
 
-  getContactDirectoryText() {
-    return element(by.css('app-root-h1'));
+  getContactDirectory() {
+    return element(by.css('app-root app-contacts-directory')).getText();
   }
- 
+  getContactDirectoryButton() {
+    return element(by.id('cdBtn')).getText();
+  }
+}
 
-  }
 
