@@ -1,10 +1,10 @@
 import { browser, by, By, $, $$, Button, ExpectedConditions, element } from 'protractor';
-import { AppPage } from './app.po';
+import { contactDirPage } from './contactdirectory.po';
 
 describe('Contact directory', () => {
-    let page: AppPage;
+    let page: contactDirPage;
     beforeEach(() => {
-        page = new AppPage;
+        page = new contactDirPage;
     });
 
     it('should click view contacts button', () => {
@@ -14,4 +14,3 @@ describe('Contact directory', () => {
 
     });
 });
-

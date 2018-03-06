@@ -9,11 +9,13 @@ import { RouterModule, Router } from '@angular/router';
 })
 export class ContactDetailComponent implements OnInit {
   router: Router;
+  //routermodule: RouterModule;
   contactService: ContactServiceService;
   currentContact: Object;
 
-  constructor(router: Router, contactService: ContactServiceService) {
+  constructor(router: Router, contactService: ContactServiceService, routermodule: RouterModule) {
     this.router = router
+    //this.routermodule = routermodule
     this.contactService = contactService;
   }
 

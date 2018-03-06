@@ -22,9 +22,7 @@ export class AppPage {
     return element(by.id('cdBtn')).getText();
   }
 
-  getContactDetail() {
-    return element(by.id('returndirectory')).getText();
-  }
+  //getContactDetail() {
+    //return element(by.
+//}
 }
-
-

@@ -1,13 +1,12 @@
-import { AppPage } from './app.po';
+import { AppPage } from './contactlanding.po';
 import { element, by, By, $, $$, Button, ExpectedConditions, browser } from 'protractor';
 
-describe('contact-app App', () => {
+describe('contact list project home page', () => {
   let page: AppPage;
 
   beforeEach(() => {
     page = new AppPage();
   });
-
 
   it('should display landing page', () => {
     page.navigateTo();
@@ -15,6 +14,7 @@ describe('contact-app App', () => {
     expect(page.getViewContactsButton()).toEqual('View Contacts');
   });
 });
+
 
 
 
