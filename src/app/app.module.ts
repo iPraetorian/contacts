@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { ContactCardsComponent } from './contacts-page/contact-cards/contact-cards.component';
 import { ContactDetailComponent } from './contacts-page/contact-card-detail/contact-card-detail.component';
 import { RouterTestingModule } from '@angular/router/testing';
+import { ContactsPageModule } from './contacts-page/contacts-page.module';
 
 
 @NgModule({
@@ -20,8 +21,7 @@ import { RouterTestingModule } from '@angular/router/testing';
     MainModule,
     AppRoutingModule,
     RouterModule,
-    RouterTestingModule,
-    
+    RouterTestingModule   
   ],
   providers: [],
   bootstrap: [AppComponent]

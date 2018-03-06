@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterModule, Router } from '@angular/router';
+import { RouterModule, Router, } from '@angular/router';
 
 
 @Component({
@@ -9,6 +9,7 @@ import { RouterModule, Router } from '@angular/router';
 })
 export class MainComponent implements OnInit {
   router: Router;
+  
 
   constructor(router: Router) {
     this.router = router
@@ -17,6 +18,6 @@ export class MainComponent implements OnInit {
   ngOnInit() {
   }
   viewcontacts() {
-    this.router.navigateByUrl("contacts");
+    this.router.navigateByUrl("/contactslist");
   }
 }

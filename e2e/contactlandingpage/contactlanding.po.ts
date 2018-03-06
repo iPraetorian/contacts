@@ -15,14 +15,4 @@ export class AppPage {
     return element(by.buttonText('View Contacts')).getText();
   }
 
-  getContactDirectory() {
-    return element(by.css('app-root app-contacts-directory')).getText();
-  }
-  getContactDirectoryButton() {
-    return element(by.id('cdBtn')).getText();
-  }
-
-  //getContactDetail() {
-    //return element(by.
-//}
 }

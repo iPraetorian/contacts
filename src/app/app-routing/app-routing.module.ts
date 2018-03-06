@@ -6,14 +6,13 @@ import { MainModule } from '../main/main.module';
 import { ContactsDirectoryComponent } from '../contacts-page/contacts-directory/contacts-directory.component';
 import { ContactsPageModule } from '../contacts-page/contacts-page.module';
 import { ContactDetailComponent } from '../contacts-page/contact-card-detail/contact-card-detail.component';
-
+import { AppComponent } from '../app.component';
 const routes: Routes = [
-  {
-    path: '',
-    component: MainComponent
-  }, {
-    path: 'contacts',
+
+   {
+    path: 'contactslist',
     component: ContactsDirectoryComponent
+  
 
   },
   {
@@ -21,6 +20,11 @@ const routes: Routes = [
     path: 'contactdetail',
     component: ContactDetailComponent
     
+  },
+  {
+    path: '',
+    component: MainComponent
+ 
   }
 ]
 @NgModule({
