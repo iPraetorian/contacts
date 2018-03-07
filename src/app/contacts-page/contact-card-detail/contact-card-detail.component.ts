@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ContactServiceService } from '../contact-service.service';
-import { RouterModule, Router } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contact-card-detail',
@@ -9,13 +9,11 @@ import { RouterModule, Router } from '@angular/router';
 })
 export class ContactDetailComponent implements OnInit {
   router: Router;
-  //routermodule: RouterModule;
   contactService: ContactServiceService;
   currentContact: Object;
 
-  constructor(router: Router, contactService: ContactServiceService, routermodule: RouterModule) {
+  constructor(router: Router, contactService: ContactServiceService) {
     this.router = router
-    //this.routermodule = routermodule
     this.contactService = contactService;
   }
 

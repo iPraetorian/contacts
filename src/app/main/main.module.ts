@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MainComponent } from './main.component';
-import { Router, RouterModule } from '@angular/router';
+import { Router, RouterModule, RouterOutlet } from '@angular/router';
 
 @NgModule({
   imports: [
@@ -9,7 +9,7 @@ import { Router, RouterModule } from '@angular/router';
   ],
   declarations: [
     MainComponent
-  ],
+    ],
   exports: [ MainComponent ]
 })
 export class MainModule {}
